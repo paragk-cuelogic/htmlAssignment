@@ -111,7 +111,7 @@ header ul li:hover{
 
 .dashboard > p{
     font-size: 18px;
-    line-height: 22px;
+    line-height: 21.6px;
 }
 
 .dashboard > p img{
@@ -162,7 +162,7 @@ header ul li:hover{
 
 .dash .block .left p.title{
     font-size: 16px;
-    line-height: 20px;
+    line-height: 19.2px;
     font-family: Quicksand, serif;
     font-weight: 500;
     color: #FFFFFF;
@@ -171,7 +171,7 @@ header ul li:hover{
 .dash .block .left p.count{
     margin-top: 34px;
     font-size: 30px;
-    line-height: 38px;
+    line-height: 36px;
     font-family: Quicksand, serif;
     font-weight: 500;
     color: #FFFFFF;
@@ -365,6 +365,7 @@ header ul li:hover{
     font-size: 14px;
     line-height: 16.8px;
     color: #919599;
+    max-width: 290px;
     padding-top: 20px;  
     /* font-family: 'Lato', sans-serif;
     font-weight: 400; */
