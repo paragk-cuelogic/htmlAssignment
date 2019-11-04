@@ -375,10 +375,10 @@ header ul li:hover{
     float: right;
 }
 
-.recent ul li .date p{
+.recent ul li .date span{
     float: left;
     font-size: 13px;
-    line-height: 15.6px;
+    line-height: 16px;
     margin: 12px 0px;
     color: #919599;
     text-align: center;
