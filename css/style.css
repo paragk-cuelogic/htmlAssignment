@@ -145,6 +145,7 @@ header ul li a:hover{
     float: left;
     /* width: 23.4375%; */
     width: calc((100% - 72px)/4);
+    height: 110px;
 }
 
 .dash-sub-right{
