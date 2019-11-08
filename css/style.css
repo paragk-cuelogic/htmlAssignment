@@ -16,8 +16,8 @@ body{
     /* vertical-align: middle; */
 }
 
-section a > img{
-    display: block;
+h1, h2{
+    margin: 0px;
 }
 
 
@@ -59,13 +59,19 @@ header a{
     display: inline-block;
 }
 
-header .container2 > a:nth-child(1){
+header .container2 .logo{
     margin: 9px 0px 10px;
 }
 
-header .container2 > a:nth-child(2){
+header .container2 .menu{
     margin-left: 60px;
 }
+
+header .container2 .menu img{
+    display: block;
+}
+
+
 
 header .container2 ul{
     margin: 10px 0px;
@@ -124,6 +130,9 @@ header ul li a:hover{
     margin-right: 12px;
 }
 
+.dashboard > a img{
+    display: block;
+}
 .dash{
     margin-top: 36px;
 }
@@ -342,7 +351,6 @@ header ul li a:hover{
 }
 
 .asides aside{
-/* width: 48.9583%; */
 width: calc((100% - 24px)/2);
 }
 
@@ -353,103 +361,96 @@ width: calc((100% - 24px)/2);
 .asides .title{
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    padding: 18px 30px 18px 29.5px;
-    margin-bottom: 1px;
+    line-height: 20px;
+    padding: 17px 30px 17px 29.5px;
     background-color: white;
 }
 
-.asides .title img{
+.asides .title a{
     float: right;
+}
+
+.asides .title a{
+    display: block;
 }
 
 .recent ul li{
-    position: relative;
-    padding: 0px 30px 0px 29.5px;
+    padding: 12px 30px 12px 29.5px;
     background-color: white;
-    margin-bottom: 1px;
-
+    margin-top: 1px;
 }
 
-.recent ul li:nth-child(2){
+/* .recent ul li:nth-child(2){
     background-color: #E1F5E3;
-}
+} */
 
 .recent ul li .content{
+    display: inline-block;
     vertical-align: middle;
-    float: left;
     font-size: 14px;
     line-height: 17px;
     color: #919599;
-    max-width: 290px;
-    padding: 20px 0px 19px;  
-    /* font-family: 'Lato', sans-serif;
-    font-weight: 400; */
+    min-width: calc(100% - 148px);
+    max-width: calc(100% - 148px);
+    padding: 8px 0px 7px 0px;
 }
 
 .recent ul li .date{
-    float: right;
+    display: inline-block;
 }
 
 .recent ul li .month{
-    float: right;
+    display: inline-block;
     vertical-align: middle;
-    overflow: auto;
     font-size: 13px;
-    width: 70px;
+    width: 80px;
     line-height: 16px;
-    margin: 12px 0px;
+    margin-left:16px;
     color: #919599;
     text-align: center;
-    /* font-family: 'Lato';
-    font-weight: 400; */
 }
 
 .recent ul li .check{
-    float: right;
+    display: inline-block;
     vertical-align: middle;
     height: 17px;
     width: 17px;
-    margin: 19.5px 0px 19.5px 28px;
+    margin-left: 28px;
     background-color: white;
     border: 1px solid #ced4d9;
     
 }
 
+.recent ul li .checked{
+    margin-left: 27px;
+}
 
-.recent ul li .date .checked{
-    float: right;
-    margin: 19.5px 0px 19.5px 28px;
+.recent ul li.checked{
+    background-color: #E1F5E3;
 }
 
 
 .asides .status{
     float: right;
-    background-color: white;
-}
-
-.asides .status .title{
-    border-bottom: 1px solid #EBECF2;
 }
 
 .asides .status .block{
-    margin-left: 29.5px;
-    margin-right: 32px;
+    background-color: white;
+    padding: 0px 32px 41px 29.5px;
 }
 
-.asides .status .block:nth-child(2){
-    margin-top: 32px;
-    margin-bottom: 41px;
+.asides .status .block.first{
+    padding-top: 32px;
+    margin-top: 1px;
 }
 
-.asides .status .block:last-child{
-    margin-top: 41px;
-    margin-bottom: 56px;
+.asides .status .block.last{
+    padding-bottom: 56px;
 }
 
 .asides .status .block .type{
-    /* font-family: 'Lato', sans-serif; */
     font-weight: 700;
-    line-height: 19.2px;
+    line-height: 19px;
     float: left;
     margin-top: 19px;
     font-size: 16px;
