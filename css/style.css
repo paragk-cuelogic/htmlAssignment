@@ -166,7 +166,8 @@ header ul li a:hover{
     background-color: #8AC249;
 }
 
-.dash .block:last-child{
+.dash .block.last{
+    margin-right: 0px;
     background-color: #2095F2;
 }
 
@@ -304,7 +305,7 @@ header ul li a:hover{
     /* height: 59px; */
     width: 100%;
     margin-top: 1px;
-    padding: 20px 34px;
+    padding: 20px 50px;
     text-align: center;
     background-color: #FFFFFF;
 }
