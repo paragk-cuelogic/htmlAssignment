@@ -68,7 +68,7 @@ header .container2 .menu{
 }
 
 header .container2 .menu img{
-    display: block;
+    /* display: block; */
 }
 
 
@@ -364,7 +364,7 @@ width: calc((100% - 24px)/2);
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     line-height: 20px;
-    padding: 17px 30px 17px 29.5px;
+    padding: 17px 30px 17px 29px;
     background-color: white;
 }
 
@@ -377,7 +377,7 @@ width: calc((100% - 24px)/2);
 }
 
 .recent ul li{
-    padding: 12px 30px 12px 29.5px;
+    padding: 12px 30px 12px 29px;
     background-color: white;
     margin-top: 1px;
 }
@@ -417,14 +417,14 @@ width: calc((100% - 24px)/2);
     vertical-align: middle;
     height: 17px;
     width: 17px;
-    margin-left: 28px;
+    margin-left: 27px;
     background-color: white;
     border: 1px solid #ced4d9;
     
 }
 
 .recent ul li .checked{
-    margin-left: 27px;
+    margin-left: 26px;
 }
 
 .recent ul li.checked{
